@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>SİTE BAŞLIĞI</title>
+    </head>
+        
+    <body>
+        <div>
+            inputsuz Buton:
+            <button type="submit">Gönder</button>
+            <hr />
+            Metin YAZ: <br>
+            <textarea name="textarea" id="tem" cols="50" rows="5"></textarea>
+            <hr />
+            <select name="sec">
+                <optgroup label="İşaretleme DİLLERİ">
+                    <option value="HTMLS" selected>HTML</option>
+                    <option value="CSSS">CSS</option>
+                </optgroup>
+                <optgroup label="Yazılım DİLLERİ">
+                    <option value="C" selected>C#</option>
+                    <option value="C++">C++</option>
+                    <option value="JS">JS</option>
+                </optgroup>
+            </select> <br>
+            <select name="secc" multiple size="6">
+                <optgroup label="İşaretleme DİLLERİ">
+                    <option value="HTMLS" selected>HTML</option>
+                    <option value="CSSS">CSS</option>
+                </optgroup>
+                <optgroup label="Yazılım DİLLERİ">
+                    <option value="C" selected>C#</option>
+                    <option value="C++">C++</option>
+                    <option value="JS">JS</option>
+                </optgroup>
+            </select> <br>
+            <select name="secc" multiple size="3">
+                <option value="HTMLS" selected>HTML</option>
+                <option value="CSSS">CSS</option>
+                <option value="JSS">JS</option>
+            </select> <br>
+            <select name="sec">
+                <option value="HTMLS" selected>HTMl</option>
+                <option value="CSSS">CSS</option>
+                <option value="JSS">JS</option>
+            </select> <br>
+            <label for="listemm">Liste:</label>
+            <input list="listem" name="listemm">
+            <datalist id="listem">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JS">
+            </datalist>
+            <hr />
+                Autocomplete kapalı:<input type="text" autocomplete="off">
+            <hr />
+                <input type="time"> <br>
+                Telefon Klavyesi:<input type="url">
+                <input type="tel"> <br>
+                Arama Yap:<input type="search"> <br>
+                <input type="range" min="5" max="100"> <br>
+                <input type="number" min="5" max="10" value="5"> <br>
+                <input type="month"> <br>
+                <input type="datetime-local"> <br>
+                <input type="date"> <br>
+                <input type="color">
+                <hr />
+                <form action="" method="GET">
+                    <fieldset>
+                        <legend>Giriş YAP</legend>
+                    <label for="imm">E-Posta Adresiniz:</label>
+                    <input autofocus required ="imm" type="email" placeholder="E-Posta'nızı yazınız..."> <br>
+                    <label for="kullan">Kullanıcı Adı:</label> 
+                    <input maxlength="6" id="kullan" type="text" placeholder="Kullanıcı Adınızı yazınız..."> <br>
+                    <label for="pass">Parola:</label>
+                    <input maxlength="6" id="pass" type="password" placeholder="Kullanıcı Adınızı yazınız..."> <br>
+                    <input name="Dosya[]" multiple type="file" accept="image/*"> <br>
+                    <input id="kabul" type="checkbox" checked> 
+                    <label required for="kabul">Kabul Ediyorum.</label> <br>
+                    <label for="erd">
+                        <input required id="erd" type="radio" name="cins" value="erkek"> Erkek
+                    </label>
+                    <label for="kiz">
+                        <input required id="kiz" type="radio" name="cins" value="kız"> Kız
+                    </label> <br>
+                    <input type="submit" value="İŞLEMİ YAP">
+                    <input type="reset" value="Sıfırla">
+                    <input type="hidden" name="hit" value="Hi!">
+                </fieldset>
+                </form>
+                <hr />
+                <a href="https://www.google.com/" target="web">| Google |</a>
+                <a href="https://www.youtube.com/" target="web">| YouTube |</a><br>
+                <iframe name="web" src="" frameborder="0" width="400" height="200"></iframe>
+            <hr />
+                <video controls poster="" width="250" height="250">
+                    <source src="">
+                </video>
+            <hr />
+                <audio controls loop>
+                    <source src="">
+                </audio>
+                <hr />
+                <dd>
+                    <dt>Naber Kanka</dt>
+                    <dd>Öyleymiş TM</dd>
+                    <dt>Naber Kanka 2</dt>
+                    <dd>Öyleymiş TM 2</dd>
+                </dd>
+            <hr />
+                <ol>
+                    <li>Naber kanka 1</li>
+                    <li>Naber kanka 2</li>
+                </ol>
+                <ul>
+                    <li>Naber kanka 1</li>
+                    <li>Naber kanka 2</li>
+                </ul>
+            <hr />
+                <table border="5">
+                    <caption>Telefonlar ve Telefon Numaraları</caption>
+
+                    <thead>
+                        <tr>
+                            <td><b>Telefonlar</b></td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr><td>05324449812</td>
+                            <td rowspan="4"><b>Numaralar</b></td>
+                        </tr>
+                        <tr><td>05324479514</td></tr>
+                        <tr><td>05324479811</td></tr>
+                        <tr><td>05324474813</td></tr>
+                    </tbody>
+                </table>
+                <br>
+                <table border="5">
+                    <caption>Kelime ve Numaralar</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Numara</th>
+                            <th>Kelime</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><b>1</b></td>
+                            <td>Ham Ham</td>
+                        </tr>
+                        <tr>
+                            <td><b>2</b></td>
+                            <td>Caz La</td>
+                        </tr>
+                        <tr>
+                            <td><b>3</b></td>
+                            <td>Bruh Mahmud</td>
+                        </tr>
+                    </tbody>
+                    <tfoot >
+                        <tr>
+                            <td colspan="2">Sonuç: <b>Yok</b></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <hr />
+                <a href="">
+                    <img src="" width="120" title="Logo" alt="Resim çıktısı hatalı!">
+                </a>
+                <hr />
+                Lorem Ipsumları görmek için bas <a href="#loremIpsum">BAS</a>
+                <hr />
+                Resim indirmek için bas!:<a href="" download>[İNDİR]</a> <br>
+                <h3><a href="https://tr.wikipedia.org" target="_blank" title="Git!">Wikipedia' ya git!</a></h3>
+                <hr />
+                <abbr title="Naber kanka">Yetmez!</abbr> <br>
+                <hr />
+                <big>Naber kanka</big> <br>
+                <small>Naber kanka</small> <br>
+                <hr />
+                Hamham, <sup>Naber kanka</sup> <br>
+                Hamham, <sub>Naber kanka</sub> <br>
+                <hr />
+                <del>Naber kanka</del> <br>
+                <hr />
+                <i>Naber kanka</i> <br>
+                <em>Naber kanka</em> <br>
+                <hr />
+                <b>Naber kanka</b> <br>
+                <strong>Naber kanka</strong> <br>
+                <hr />
+                <u>Naber kanka</u> <br> 
+                <ins>Naber kanka</ins> <br>
+                <hr />
+                Naber kanka: <q>Naber kanka</q> <br>
+                Wikipedia nedir?:<blockquote cite="https://tr.wikipedia.org/wiki/Vikipedi">Vikipedi, kullanıcıları tarafından ortaklaşa olarak birçok dilde hazırlanan; özgür, bağımsız, ücretsiz, 
+                    reklamsız ve kâr amacı gütmeyen bir internet ansiklopedisidir. 
+                    MediaWiki yazılımı kullanılarak hazırlanmaktadır. Sürekli eklemeler 
+                    ve değişiklikler yapıldığı için hiçbir zaman tamamlanmayacağı varsayılmaktadır.</blockquote>
+                <hr />
+            </p>
+        </div>
+        <div id="loremIpsum">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            
+            
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            
+            Where can I get some?
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            
+            
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            
+            Where can I get some?
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+            <hr />
+            <center> <sup>2023</sup><b>Komut Eğitimleri</b> | <i>by Pounter</i></center>
+        </div>
+    </body>
+</html>
